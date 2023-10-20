@@ -1,0 +1,16 @@
+[package]
+name = "wasm-game-genie"
+version = "0.1.0"
+edition = "2021"
+authors = ["KillyBOT"]
+description = "A website for creating and decoding game genie codes"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/KillyBOT/wasm-game-genie"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
